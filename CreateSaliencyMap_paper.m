@@ -2,7 +2,7 @@
 % 整体上表现得比toolbox来的好，但是对于orientation还是特别差劲
 clear
 %% load image
-image=im2double(imread('1.png'));
+image=im2double(imread('3.jpg'));
 imagesize=size(image);
 %% get feature(paper edition)
 intensity=mean(image,3);
